@@ -1,0 +1,47 @@
+/* Service card */
+.service-card { display: flex; flex-direction: column; gap: 12px; transition: transform 0.3s var(--ease), box-shadow 0.3s; height: 100%; }
+.service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
+.service-card__icon {
+  width: 60px; height: 60px; border-radius: 18px; display: grid; place-items: center; font-size: 1.8rem;
+  background: var(--rose-100);
+}
+.service-card .tag { align-self: flex-start; }
+.service-card h3 { margin: 4px 0 0; }
+.service-card p { color: var(--muted); font-size: 0.95rem; flex: 1; margin: 0; }
+
+/* Doctor card */
+.doctor-card { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 6px; height: 100%; }
+.doctor-card__avatar {
+  width: 112px; height: 112px; border-radius: 50%; display: grid; place-items: center; margin-bottom: 12px;
+  background: var(--grad); color: #fff; font-family: var(--font-head); font-size: 2.2rem;
+  box-shadow: 0 0 0 6px var(--rose-100);
+}
+.doctor-card h3 { margin: 0; }
+.doctor-card__role { color: var(--rose-500); font-weight: 600; font-size: 0.9rem; }
+.doctor-card__quals { font-size: 0.85rem; color: var(--muted); margin: 0; }
+.doctor-card__meta { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 8px 0; }
+.doctor-card__bio { font-size: 0.92rem; color: var(--muted); flex: 1; }
+
+/* Process steps */
+.process { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; counter-reset: step; }
+.process__step { position: relative; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 20px; }
+.process__step::after {
+  content: ''; position: absolute; top: 44px; right: -21px; width: 22px; height: 2px; background: var(--rose-300);
+}
+.process__step:last-child::after { display: none; }
+.process__num {
+  display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 50%;
+  background: var(--grad); color: #fff; font-weight: 600; margin-bottom: 14px;
+}
+.process__step h3 { font-size: 1.05rem; }
+.process__step p { font-size: 0.88rem; color: var(--muted); margin: 0; }
+@media (max-width: 1100px) {
+  .process { grid-template-columns: repeat(3, 1fr); }
+  .process__step::after { display: none; }
+}
+@media (max-width: 760px) {
+  .process { grid-template-columns: 1fr; gap: 14px; }
+  .process__step { display: grid; grid-template-columns: 44px 1fr; gap: 0 16px; padding: 18px; }
+  .process__num { grid-row: span 2; margin: 0; }
+  .process__step h3 { margin: 0 0 4px; }
+}
