@@ -1,0 +1,52 @@
+/* Final responsive layer — loaded last so it can fine-tune every breakpoint. */
+
+/* Large desktop */
+@media (min-width: 1400px) {
+  :root { --container: 1280px; }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .section-title { margin-bottom: 36px; }
+  .card { padding: 24px; }
+}
+
+/* Mobile */
+@media (max-width: 640px) {
+  :root { --gutter: 16px; }
+  body { font-size: 15px; }
+  .grid { gap: 16px; }
+  .card { padding: 20px; border-radius: 16px; }
+  .btn--lg { padding: 14px 24px; }
+  .page-header { text-align: left; }
+  .mt-lg { margin-top: 28px; }
+  .section-title p { font-size: 0.98rem; }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+  .brand__text small { letter-spacing: 0.14em; }
+  .btn { padding: 11px 18px; }
+}
+
+/* Landscape phones: keep the drawer usable */
+@media (max-height: 480px) and (orientation: landscape) {
+  .nav-links { padding-top: 72px; }
+}
+
+/* Touch devices: no sticky hover lifts */
+@media (hover: none) {
+  .service-card:hover, .why__item:hover, .btn:hover { transform: none; }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+
+/* Print */
+@media print {
+  .site-header, .footer, .fab, .cta, .nav-backdrop { display: none !important; }
+  body { background: #fff; color: #000; }
+  .section { padding: 16px 0; }
+}
