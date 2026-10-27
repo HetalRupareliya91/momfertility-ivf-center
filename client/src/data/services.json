@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "ivf",
+    "title": "In Vitro Fertilisation (IVF)",
+    "category": "Assisted Reproduction",
+    "icon": "🧪",
+    "short": "Eggs and sperm are combined in our lab and the healthiest embryo is transferred to the uterus.",
+    "description": "IVF is the most effective treatment for many causes of infertility, including blocked tubes, endometriosis, low ovarian reserve and unexplained infertility. Your cycle is tailored with personalised stimulation, close ultrasound monitoring, egg retrieval under anaesthesia, fertilisation in our embryology lab and a gentle embryo transfer.",
+    "highlights": ["Personalised stimulation protocols", "Ultrasound and hormone monitoring", "Embryo culture to blastocyst stage", "Single embryo transfer guidance"],
+    "duration": "4–6 weeks per cycle",
+    "idealFor": "Tubal factor, endometriosis, low AMH, unexplained infertility"
+  },
+  {
+    "slug": "icsi",
+    "title": "ICSI",
+    "category": "Assisted Reproduction",
+    "icon": "🔬",
+    "short": "A single healthy sperm is injected directly into each mature egg to help fertilisation.",
+    "description": "Intracytoplasmic Sperm Injection (ICSI) is performed as part of IVF when sperm count, movement or shape is low, or when fertilisation failed in a previous cycle. Our embryologists select the best sperm under high magnification and inject it into each mature egg.",
+    "highlights": ["Helpful for severe male-factor infertility", "High-magnification sperm selection", "Useful after previous fertilisation failure"],
+    "duration": "Performed within an IVF cycle",
+    "idealFor": "Low sperm count or motility, previous IVF fertilisation failure"
+  },
+  {
+    "slug": "iui",
+    "title": "Intrauterine Insemination (IUI)",
+    "category": "Assisted Reproduction",
+    "icon": "💉",
+    "short": "Washed, concentrated sperm is placed directly into the uterus around the time of ovulation.",
+    "description": "IUI is a simple, less invasive first-line treatment. It is often combined with mild ovulation induction and follicle tracking so insemination happens at the ideal time.",
+    "highlights": ["Quick, painless outpatient procedure", "Follicle tracking for precise timing", "Lower cost first-line option"],
+    "duration": "About 2 weeks per cycle",
+    "idealFor": "Mild male factor, ovulation issues, unexplained infertility"
+  },
+  {
+    "slug": "egg-freezing",
+    "title": "Egg & Embryo Freezing",
+    "category": "Fertility Preservation",
+    "icon": "❄️",
+    "short": "Preserve your fertility for the future with vitrification — fast-freezing of eggs or embryos.",
+    "description": "Whether you are delaying pregnancy for personal or career reasons, or preparing for medical treatment such as chemotherapy, vitrification lets you store eggs or embryos for later use.",
+    "highlights": ["Vitrification (rapid freezing)", "Secure long-term storage", "Counselling on the best age to freeze"],
+    "duration": "2–3 weeks",
+    "idealFor": "Planned parenthood later, before cancer treatment, surplus embryos"
+  },
+  {
+    "slug": "fertility-assessment",
+    "title": "Fertility Assessment",
+    "category": "Diagnostics",
+    "icon": "🩺",
+    "short": "A complete check-up for both partners to find the cause and the right path forward.",
+    "description": "Your first step is understanding what is happening. We review your history and arrange hormone tests (including AMH), pelvic ultrasound, tubal assessment and semen analysis so that recommendations are based on clear information.",
+    "highlights": ["AMH and hormone profile", "Transvaginal ultrasound", "Tubal patency testing", "Semen analysis"],
+    "duration": "1–2 visits",
+    "idealFor": "Couples trying for 12 months, or 6 months if the woman is over 35"
+  },
+  {
+    "slug": "male-infertility",
+    "title": "Male Infertility Care",
+    "category": "Diagnostics",
+    "icon": "🧬",
+    "short": "Evaluation and treatment for male-factor infertility, including surgical sperm retrieval.",
+    "description": "Male factors contribute to many cases of infertility. Our andrology team offers detailed semen analysis, hormone evaluation, lifestyle guidance and surgical sperm retrieval (PESA/TESA) when sperm is absent from the ejaculate.",
+    "highlights": ["Detailed semen analysis", "Sperm DNA fragmentation testing", "Surgical sperm retrieval (PESA/TESA)"],
+    "duration": "Varies by treatment",
+    "idealFor": "Low or absent sperm, poor motility, previous failed cycles"
+  },
+  {
+    "slug": "pgt",
+    "title": "Preimplantation Genetic Testing (PGT)",
+    "category": "Assisted Reproduction",
+    "icon": "🧫",
+    "short": "Embryos are screened for chromosomal or specific genetic conditions before transfer.",
+    "description": "PGT can help selected patients — such as those with known genetic conditions, recurrent miscarriage or repeated implantation failure — choose embryos with a normal chromosome count. Your doctor will discuss whether it is right for you.",
+    "highlights": ["PGT-A for chromosome screening", "PGT-M for single-gene conditions", "Genetic counselling included"],
+    "duration": "Adds 1–2 weeks to IVF",
+    "idealFor": "Recurrent miscarriage, known genetic disorders, repeated IVF failure"
+  },
+  {
+    "slug": "hysteroscopy-laparoscopy",
+    "title": "Hysteroscopy & Laparoscopy",
+    "category": "Surgery",
+    "icon": "🏥",
+    "short": "Minimally invasive keyhole procedures to diagnose and treat problems in the uterus and pelvis.",
+    "description": "Fibroids, polyps, septum, adhesions, endometriosis and blocked tubes can affect fertility. Our gynaecological endoscopy team treats them with minimally invasive techniques for faster recovery.",
+    "highlights": ["Day-care procedures", "Treatment of fibroids, polyps and endometriosis", "Faster recovery"],
+    "duration": "Day care, 1–2 weeks recovery",
+    "idealFor": "Fibroids, polyps, endometriosis, uterine septum"
+  },
+  {
+    "slug": "donor-program",
+    "title": "Donor Program",
+    "category": "Assisted Reproduction",
+    "icon": "🤝",
+    "short": "Ethical, confidential egg, sperm and embryo donation in line with Indian ART regulations.",
+    "description": "When your own eggs or sperm cannot be used, donor programs offer another route to parenthood. All donations follow the ART (Regulation) Act, with screening, counselling and complete confidentiality.",
+    "highlights": ["Screened donors", "Compliant with the ART Act", "Confidential matching"],
+    "duration": "Varies",
+    "idealFor": "Very low ovarian reserve, premature menopause, absent sperm"
+  },
+  {
+    "slug": "counselling",
+    "title": "Fertility Counselling",
+    "category": "Support",
+    "icon": "💗",
+    "short": "Emotional support, nutrition and lifestyle guidance through every stage of treatment.",
+    "description": "Fertility treatment can be emotionally demanding. Our counsellors support you and your partner with stress management, nutrition and lifestyle advice, and help you make informed decisions.",
+    "highlights": ["Individual and couple sessions", "Nutrition and lifestyle plans", "Support after unsuccessful cycles"],
+    "duration": "Ongoing",
+    "idealFor": "Everyone on a fertility journey"
+  }
+]

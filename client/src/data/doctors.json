@@ -1,0 +1,46 @@
+[
+  {
+    "id": "ananya-mehta",
+    "name": "Dr. Ananya Mehta",
+    "initials": "AM",
+    "role": "Medical Director",
+    "specialty": "Reproductive Medicine",
+    "qualifications": "MBBS, MS (OBG), Fellowship in Reproductive Medicine",
+    "experience": 15,
+    "languages": ["English", "Hindi", "Gujarati"],
+    "bio": "Leads the clinical team with a focus on individualised IVF protocols and gentle, patient-first care."
+  },
+  {
+    "id": "rohan-desai",
+    "name": "Dr. Rohan Desai",
+    "initials": "RD",
+    "role": "Senior Embryologist",
+    "specialty": "Clinical Embryology",
+    "qualifications": "PhD (Clinical Embryology)",
+    "experience": 12,
+    "languages": ["English", "Hindi", "Gujarati"],
+    "bio": "Heads our IVF laboratory — ICSI, blastocyst culture, vitrification and embryo quality control."
+  },
+  {
+    "id": "kavita-shah",
+    "name": "Dr. Kavita Shah",
+    "initials": "KS",
+    "role": "Consultant Gynaecologist",
+    "specialty": "Gynaecologic Endoscopy",
+    "qualifications": "MBBS, DNB (OBG), FMAS",
+    "experience": 10,
+    "languages": ["English", "Hindi", "Gujarati", "Marathi"],
+    "bio": "Specialises in hysteroscopy and laparoscopy for fibroids, endometriosis and uterine factors."
+  },
+  {
+    "id": "neel-patel",
+    "name": "Dr. Neel Patel",
+    "initials": "NP",
+    "role": "Consultant Andrologist",
+    "specialty": "Andrology",
+    "qualifications": "MBBS, MS, MCh (Urology)",
+    "experience": 9,
+    "languages": ["English", "Hindi", "Gujarati"],
+    "bio": "Evaluates and treats male-factor infertility, including surgical sperm retrieval."
+  }
+]
