@@ -1,0 +1,16 @@
+{
+  "currency": "INR",
+  "note": "Indicative range only. Your exact cost depends on medicines, tests and your personalised plan — we share a written estimate after consultation.",
+  "treatments": [
+    { "id": "iui", "label": "IUI", "min": 8000, "max": 15000 },
+    { "id": "ivf", "label": "IVF", "min": 110000, "max": 160000 },
+    { "id": "icsi", "label": "IVF + ICSI", "min": 130000, "max": 180000 },
+    { "id": "egg-freezing", "label": "Egg Freezing", "min": 90000, "max": 140000 }
+  ],
+  "addons": [
+    { "id": "pgt", "label": "Genetic testing (PGT)", "min": 40000, "max": 70000 },
+    { "id": "embryo-freezing", "label": "Embryo freezing (1 year)", "min": 20000, "max": 35000 },
+    { "id": "fet", "label": "Frozen embryo transfer", "min": 30000, "max": 50000 },
+    { "id": "donor", "label": "Donor program", "min": 60000, "max": 100000 }
+  ]
+}
