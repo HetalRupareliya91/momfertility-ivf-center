@@ -1,0 +1,12 @@
+[
+  { "id": "t1", "name": "Priya & Amit", "location": "Gujarat", "treatment": "IVF", "rating": 5,
+    "quote": "After years of trying, the team gave us clear answers and so much kindness. Holding our daughter still feels like a dream." },
+  { "id": "t2", "name": "Sneha R.", "location": "Maharashtra", "treatment": "ICSI", "rating": 5,
+    "quote": "Every scan, every call, someone explained what was happening. We never felt alone, even on the hard days." },
+  { "id": "t3", "name": "Meera & Karan", "location": "Gujarat", "treatment": "IUI", "rating": 5,
+    "quote": "We were nervous about starting treatment, but the doctors began with simple steps. Our son was born last spring." },
+  { "id": "t4", "name": "Anjali P.", "location": "Rajasthan", "treatment": "Egg Freezing", "rating": 5,
+    "quote": "Honest advice, transparent costs and zero pressure. I feel confident about my future choices." },
+  { "id": "t5", "name": "Ritu & Vikas", "location": "Madhya Pradesh", "treatment": "IVF with PGT", "rating": 5,
+    "quote": "After two losses elsewhere, the genetic counselling here helped us understand our options. Thank you for our twins." }
+]
