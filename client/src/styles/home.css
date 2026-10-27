@@ -1,0 +1,16 @@
+.why { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 56px; align-items: center; }
+.why .section-title { margin-bottom: 24px; }
+.why__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.why__item { background: #fff; border-radius: var(--radius); padding: 22px; border: 1px solid var(--line); transition: transform 0.3s var(--ease); }
+.why__item:hover { transform: translateY(-4px); }
+.why__item span { font-size: 1.6rem; }
+.why__item h3 { font-size: 1.02rem; margin: 10px 0 6px; font-family: var(--font-body); font-weight: 600; }
+.why__item p { font-size: 0.88rem; color: var(--muted); margin: 0; }
+@media (max-width: 992px) {
+  .why { grid-template-columns: 1fr; gap: 24px; }
+  .why .section-title { text-align: center; margin-left: auto; margin-right: auto; }
+  .why .btn { display: flex; width: fit-content; margin: 0 auto; }
+}
+@media (max-width: 560px) {
+  .why__grid { grid-template-columns: 1fr; }
+}
