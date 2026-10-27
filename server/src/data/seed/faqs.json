@@ -1,0 +1,18 @@
+[
+  { "category": "Getting started", "q": "When should we see a fertility specialist?",
+    "a": "If you are under 35 and have been trying for 12 months without success, or over 35 and trying for 6 months, it is a good time to book an assessment. See a specialist sooner if you have irregular periods, known endometriosis, previous pelvic surgery or a known male-factor issue." },
+  { "category": "Getting started", "q": "What happens at the first consultation?",
+    "a": "Your doctor reviews your medical history and any previous reports, explains the tests you need and answers your questions. Most couples leave with a clear plan for the next steps." },
+  { "category": "Getting started", "q": "Do both partners need to be tested?",
+    "a": "Yes. Male factors contribute to a large share of infertility, so a semen analysis is part of the first evaluation along with tests for the female partner." },
+  { "category": "IVF treatment", "q": "Is IVF painful?",
+    "a": "Most patients describe the hormone injections as mildly uncomfortable. Egg retrieval is done under short anaesthesia, and embryo transfer feels similar to a routine pelvic examination." },
+  { "category": "IVF treatment", "q": "How long does one IVF cycle take?",
+    "a": "A typical cycle takes 4–6 weeks from the start of medication to the pregnancy test. Frozen embryo transfers may follow a different timeline." },
+  { "category": "IVF treatment", "q": "How many embryos will be transferred?",
+    "a": "We usually recommend transferring a single good-quality embryo to reduce the risks of multiple pregnancy, in line with Indian guidelines. Your doctor will discuss what is right for you." },
+  { "category": "Costs & support", "q": "How much does IVF cost?",
+    "a": "The cost depends on your treatment plan, medicines and any add-ons such as ICSI, PGT or embryo freezing. Try our IVF cost calculator for an indicative range, and we will give you an exact written estimate after your consultation." },
+  { "category": "Costs & support", "q": "Do you offer counselling?",
+    "a": "Yes. Emotional support is part of every treatment plan, with individual and couple counselling available throughout your journey." }
+]
