@@ -1,0 +1,16 @@
+.fab {
+  position: fixed; right: 20px; z-index: 90; width: 54px; height: 54px; border-radius: 50%;
+  display: grid; place-items: center; border: 0; cursor: pointer; box-shadow: var(--shadow);
+  transition: transform 0.25s var(--ease), opacity 0.25s;
+}
+.fab:hover { transform: scale(1.08); }
+.fab--whatsapp { bottom: 20px; background: #25d366; color: #fff; }
+.fab--whatsapp:hover { color: #fff; }
+.fab--whatsapp svg { width: 28px; height: 28px; }
+.fab--top { bottom: 86px; background: #fff; color: var(--plum-700); font-size: 1.3rem; }
+.fab--top[hidden] { display: none; }
+@media (max-width: 560px) {
+  .fab { right: 14px; width: 50px; height: 50px; }
+  .fab--whatsapp { bottom: 14px; }
+  .fab--top { bottom: 74px; }
+}
